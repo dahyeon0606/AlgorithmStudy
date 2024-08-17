@@ -18,7 +18,7 @@ def dfs(i,count):
         if not visited[l]:
             visited[l]=True
             dfs(l,count+1)
-            visited[l]=False
+            visited[l]=False ##백트래킹
 
 for i in range(n): #시작 노드를 바꿔가며 진행
     visited=[False for _ in range(n)]
