@@ -16,5 +16,5 @@ dp[1]=stair[1] #1단 올랐을 때 최대 점수
 dp[2]=stair[1]+stair[2] #2단 올랐을 때 최대 점수
 
 for i in range(3,n+1):
-    dp[i]=max(dp[i-2]+stair[i],dp[i-3]+stair[i-1]+stair[i])
+    dp[i]=max(dp[i-2]+stair[i],dp[i-3]+stair[i-1]+stair[i]) #2단 오르기, 1단 오르기(단, 연속 3단 오르기가 아닌 경우만) 중 큰 값
 print(dp[n])
