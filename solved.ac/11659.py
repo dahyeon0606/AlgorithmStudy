@@ -13,7 +13,7 @@ for _ in range(m):
     if i==1:
         answer.append(nums[j-1])
     else:
-        answer.append(nums[j-1]-nums[i-2])  #3-1=2 1-2=-1
+        answer.append(nums[j-1]-nums[i-2])
 
 for a in answer:
     print(a)
