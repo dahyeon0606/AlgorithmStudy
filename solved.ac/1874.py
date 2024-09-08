@@ -10,7 +10,7 @@ stack=[0]
 count=0 #스택에 삽입할 수 1~n 
 answer=[]
 for i in range(n):   
-    while stack[-1]<nums[i] or stack[-1]==0:
+    while stack[-1]<nums[i] :
         count+=1
         stack.append(count)
         answer.append('+')
