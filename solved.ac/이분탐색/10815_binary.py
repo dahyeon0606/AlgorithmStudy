@@ -2,7 +2,7 @@ import sys
 input=sys.stdin.readline
 
 n=int(input())
-nList=sorted(list(map(int,input().split()))) #이 중에서 있는 지 찾아야 함 array
+nList=sorted(list(map(int,input().split()))) #이 중에서 있는 지 찾아야 함 array, 오름차순 정렬
 m=int(input())
 mList=list(map(int,input().split())) #이 리스트에 있는 숫자 하나하나가 key
 
