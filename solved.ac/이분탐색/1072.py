@@ -10,7 +10,8 @@ if z>=99:
 
 #승률이 변할 수 있는 경우
 else:
-    start,end= 1, 1000000000 #몇씩 증가 시킬 지 결정
+    start=1
+    end=1000000000 #몇씩 증가 시킬 지 결정
     answer=0
     while start<=end:
         mid=(start+end)//2
@@ -20,4 +21,4 @@ else:
         else:
             start=mid+1
 
-print(answer)
+    print(answer)
