@@ -16,9 +16,9 @@ else:
     while start<=end:
         mid=(start+end)//2
         if ((y+mid)*100)//(x+mid) > z:
-            end=mid-1
+            end=mid-1                                                                                                                                                                                                                 
             answer=mid
         else:
             start=mid+1
 
-    print(answer)
+    print(answer)                         
